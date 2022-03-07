@@ -36,9 +36,9 @@ namespace Olio_ohjelmointi.Car_exercise
             double jarru = this.speed * 0.9;
             Console.WriteLine($"Käytit jarrua, uusi nopeus: {jarru}");
         }
-        public void Accelerate()
+        public void Accelerate(int value)
         {
-
+            Console.WriteLine($"Auton nopeus on:{this.speed} km/h. Kiihdytit, uusi nopeutesi on: {this.speed + value}");
         }
     }
 }

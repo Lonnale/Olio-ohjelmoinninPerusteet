@@ -45,12 +45,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Author_Exercise\Author.cs" />
     <Compile Include="Book_exercise\Book.cs" />
     <Compile Include="Book2_exercise\Book2.cs" />
     <Compile Include="Car_exercise\Car.cs" />
     <Compile Include="Company_Exercise\Company.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rajapinta_Exercise\Customer.cs" />
+    <Compile Include="Rajapinta_Exercise\ICustomer.cs" />
+    <Compile Include="Rajapinta_Exercise\ICustomers.cs" />
+    <Compile Include="Rajapinta_Exercise\IProduct.cs" />
+    <Compile Include="Rajapinta_Exercise\IProducts.cs" />
+    <Compile Include="Rajapinta_Exercise\Product.cs" />
+    <Compile Include="Rajapinta_Exercise\Store.cs" />
+    <Compile Include="Shape_exercise\Circle.cs" />
+    <Compile Include="Shape_exercise\Rectangle.cs" />
+    <Compile Include="Shape_exercise\Shapes.cs" />
+    <Compile Include="Shape_exercise\Triangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

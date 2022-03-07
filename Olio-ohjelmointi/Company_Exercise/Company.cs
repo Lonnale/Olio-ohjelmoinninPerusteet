@@ -52,15 +52,15 @@ namespace Olio_ohjelmointi.Company_Exercise
 
             double profit =(double) (this.outcome - this.expense) / this.expense * 100;
              Console.WriteLine($"Firman voitto: {profit}");
-            if (profit < this.expense)
+            if (profit < 1 * this.expense)
             {
                 Console.WriteLine("Firmalla menee kehnosti");
             }
-            else if (profit > this.expense)
+            else if (profit < 1* this.expense && profit > 2 *this.expense)
             {
                 Console.WriteLine("Firmalla menee välttävästi");
             }
-            else if (profit > this.expense)
+            else if (profit > 1 * this.expense && profit < 2 * this.expense)
             {
                 Console.WriteLine("Firmalla menee tyydyttävästi");
             }
